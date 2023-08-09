@@ -1,0 +1,68 @@
+
+
+#tabela {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1000px;
+  overflow: auto;
+  background-color: rgb(255, 255, 255, 10%);
+  padding: 10px;
+  justify-content: center;
+}
+
+#input-moeda {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.format-text {
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  height: 50pxpx;
+  font-size: 12px;
+}
+
+p {
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(49, 49, 49);
+}
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 98vh;
+  background-color: rgb(87, 87, 87);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+}
+
+#title-C {
+  color: #2afd00;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+button {
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2afd00;
+  cursor: pointer;
+}
